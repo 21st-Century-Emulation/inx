@@ -1,0 +1,19 @@
+name: inx
+version: 1.0.0
+
+authors:
+  - David Tyler <davet.code@gmail.com>
+
+targets:
+  inx:
+    main: src/inx.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  crest:
+    github: mamantoha/crest
+
+crystal: 1.0.0
+
+license: MIT
